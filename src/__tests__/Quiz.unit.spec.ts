@@ -203,7 +203,6 @@ describe('Quiz', () => {
       quiz.finishQuiz(leaderboard);
       expect(leaderboard.getUserScores('correct username')).toHaveLength(1);
     })
-    //TODO CONTINUE HERE
   })
   describe('submitAnswer()', () => {
     it('should increment the current score when the answer is correct', () => {
